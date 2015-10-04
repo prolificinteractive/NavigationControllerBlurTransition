@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119BC135998560691F5D2AEABBE7CA83 /* NavigationControllerBlurTransition.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 562D76C7B70151E08671766689038399 /* NavigationControllerBlurTransition.bundle */; };
+		1D9CE859CEAF6A77BE74DF996E70858F /* Pods-NavigationControllerBlurTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E21163B200C662341AA12621942AF /* Pods-NavigationControllerBlurTransition_Tests-dummy.m */; };
+		21CBC4E09668D2ACEE9A608E382A95D8 /* NavigationControllerBlurTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0D55BBC7D65522CEC1F1B523120406 /* NavigationControllerBlurTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		430C26E8C12448EAE570B66C2CE49466 /* Pods-NavigationControllerBlurTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3475C2ECF26D6FAC99C9002F3B68DEB /* Pods-NavigationControllerBlurTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B7A929A5206E193AA6ABD433D0A866 /* Pods-NavigationControllerBlurTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B18DD1B75E1D00AB3D71DC52768B3FB6 /* Pods-NavigationControllerBlurTransition_Example-dummy.m */; };
+		72E35FA21BC147E100A5F607 /* NavigationControllerBlurTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E35FA11BC147E100A5F607 /* NavigationControllerBlurTransition.swift */; settings = {ASSET_TAGS = (); }; };
+		72E35FA41BC1483B00A5F607 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E35FA31BC1483B00A5F607 /* UIView+Constraints.swift */; settings = {ASSET_TAGS = (); }; };
+		72E35FAA1BC1BAAF00A5F607 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E35FA91BC1BAAF00A5F607 /* UINavigationController+Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+		7DE25DE2D90E5705E911A23F745E22D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7BBAF82930EB4D0B76526A619321B /* Foundation.framework */; };
+		8BCB7F14E4F4046421360D3ECC88D033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7BBAF82930EB4D0B76526A619321B /* Foundation.framework */; };
+		D33BF6B42954E790EC70933D051D5CDB /* Pods-NavigationControllerBlurTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F8E3FB86CE68E30985417C1D2E52AC /* Pods-NavigationControllerBlurTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D965FDCBAF310004089180902EB62FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7BBAF82930EB4D0B76526A619321B /* Foundation.framework */; };
+		E88DDA4E542D19B4AD8FAD9401882D67 /* NavigationControllerBlurTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2760699AADFB56BEF94C651DDB2467 /* NavigationControllerBlurTransition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C2B088B85985A6C07F6AE238A7DE074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DCE4FA96F99873B4859FAAB6D09694;
+			remoteInfo = "NavigationControllerBlurTransition-NavigationControllerBlurTransition";
+		};
+		3C9E11C77926CB570205421F198E01F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FFFCF6C9B84ED4C1DDD5B8BA8686F00;
+			remoteInfo = NavigationControllerBlurTransition;
+		};
+		BC196AD0EB5B6B0DA55667549CDE5CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FFFCF6C9B84ED4C1DDD5B8BA8686F00;
+			remoteInfo = NavigationControllerBlurTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C6F0BA06700723CD44229D2022FCBD /* Pods-NavigationControllerBlurTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationControllerBlurTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B0D55BBC7D65522CEC1F1B523120406 /* NavigationControllerBlurTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationControllerBlurTransition-umbrella.h"; sourceTree = "<group>"; };
+		12649321B94D7690BAF09C89EEDA451F /* NavigationControllerBlurTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NavigationControllerBlurTransition.modulemap; sourceTree = "<group>"; };
+		174F0CDFBD490C0FEFA4FA370B772D79 /* Pods-NavigationControllerBlurTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationControllerBlurTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EA28316CEBD183C597454D013E7B759 /* Pods_NavigationControllerBlurTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationControllerBlurTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		209224BCC2DD5ADBCB512426A8DE80D3 /* Pods-NavigationControllerBlurTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationControllerBlurTransition_Example-resources.sh"; sourceTree = "<group>"; };
+		20CB989E734253A6CDEE5551ADAFB137 /* Pods_NavigationControllerBlurTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationControllerBlurTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F8E3FB86CE68E30985417C1D2E52AC /* Pods-NavigationControllerBlurTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationControllerBlurTransition_Example-umbrella.h"; sourceTree = "<group>"; };
+		392BCE628464B71EDF8F17F419B4646D /* Pods-NavigationControllerBlurTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationControllerBlurTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3AF44FC74A8D9AE91ABCB209DD1A6C16 /* Pods-NavigationControllerBlurTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NavigationControllerBlurTransition_Tests.modulemap"; sourceTree = "<group>"; };
+		43917824A7F67B64A1593658B01AA576 /* Pods-NavigationControllerBlurTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationControllerBlurTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		562D76C7B70151E08671766689038399 /* NavigationControllerBlurTransition.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerBlurTransition.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3E21163B200C662341AA12621942AF /* Pods-NavigationControllerBlurTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationControllerBlurTransition_Tests-dummy.m"; sourceTree = "<group>"; };
+		6069995A6E5873A035DB15D6BC312DBF /* Pods-NavigationControllerBlurTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationControllerBlurTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65B336FF755702429FB5DBC148643B19 /* Pods-NavigationControllerBlurTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationControllerBlurTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NavigationControllerBlurTransition-Private.xcconfig"; sourceTree = "<group>"; };
+		704723F7E0E7DEC91CA6432BB2506230 /* NavigationControllerBlurTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationControllerBlurTransition.xcconfig; sourceTree = "<group>"; };
+		72E35FA11BC147E100A5F607 /* NavigationControllerBlurTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerBlurTransition.swift; sourceTree = "<group>"; };
+		72E35FA31BC1483B00A5F607 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		72E35FA91BC1BAAF00A5F607 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		7AE6D9BBB2F2251A225FD05367009338 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804B5B9F7B7D9E4D08281CD688F17BF3 /* Pods-NavigationControllerBlurTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationControllerBlurTransition_Tests-resources.sh"; sourceTree = "<group>"; };
+		9A2760699AADFB56BEF94C651DDB2467 /* NavigationControllerBlurTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationControllerBlurTransition-dummy.m"; sourceTree = "<group>"; };
+		A3475C2ECF26D6FAC99C9002F3B68DEB /* Pods-NavigationControllerBlurTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationControllerBlurTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD11549E10B5587244E62E937AD47AEC /* NavigationControllerBlurTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationControllerBlurTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18DD1B75E1D00AB3D71DC52768B3FB6 /* Pods-NavigationControllerBlurTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationControllerBlurTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		B5B5FAAFC76799883567837DA0D08F16 /* Pods-NavigationControllerBlurTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationControllerBlurTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB7AC4996AF6B1D4F1ABDA89D998CE3F /* Pods-NavigationControllerBlurTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NavigationControllerBlurTransition_Example.modulemap"; sourceTree = "<group>"; };
+		BD6ABD43053D877D00830FF3AC7293C1 /* Pods-NavigationControllerBlurTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationControllerBlurTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C999A0813F51F9E5058EC55D70A0411D /* Pods-NavigationControllerBlurTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationControllerBlurTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4F7BBAF82930EB4D0B76526A619321B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7AEBBB9C1FABEDA867187F28CCE6E9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDACDCA5310338E38F385766F3DAA506 /* Pods-NavigationControllerBlurTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationControllerBlurTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F92A96C431F7D80D156FA06F07C12455 /* NavigationControllerBlurTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationControllerBlurTransition-prefix.pch"; sourceTree = "<group>"; };
+		F98D7BB503A4DEDE5870586EECB357B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BF5118B43590C9ADB060A779D5E99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE25DE2D90E5705E911A23F745E22D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385D45BCCC50E65A6E2B80DCFA035822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D965FDCBAF310004089180902EB62FFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A853AAB9F3506D9C0374F6593B1390B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D384C4C71084148EEC302842FCDD3CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB7F14E4F4046421360D3ECC88D033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D21AAFE5217EFBAE08C3CE732D62B12 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				469363B3D30D601208DF31C2BEA2838A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		469363B3D30D601208DF31C2BEA2838A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				72E35FA11BC147E100A5F607 /* NavigationControllerBlurTransition.swift */,
+				72E35FA31BC1483B00A5F607 /* UIView+Constraints.swift */,
+				72E35FA91BC1BAAF00A5F607 /* UINavigationController+Extensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E3FD1B3C4B82D7A917C8C179547A945 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADBA2B0CECB837E75A7EEC2DA2D0AC0 /* Pods-NavigationControllerBlurTransition_Example */,
+				BAE8CEA11F6D13DECBF25CFA19339CC2 /* Pods-NavigationControllerBlurTransition_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7BBAF82930EB4D0B76526A619321B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		572F63A2C824567979636E164B4BAD02 /* NavigationControllerBlurTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2D21AAFE5217EFBAE08C3CE732D62B12 /* Pod */,
+				9B985E8C9B5FE888969C9C09881DBCD7 /* Support Files */,
+			);
+			name = NavigationControllerBlurTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D36CF46A182649F68FF125ADDD24D3E5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4E3FD1B3C4B82D7A917C8C179547A945 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B985E8C9B5FE888969C9C09881DBCD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7AEBBB9C1FABEDA867187F28CCE6E9B /* Info.plist */,
+				12649321B94D7690BAF09C89EEDA451F /* NavigationControllerBlurTransition.modulemap */,
+				704723F7E0E7DEC91CA6432BB2506230 /* NavigationControllerBlurTransition.xcconfig */,
+				6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */,
+				9A2760699AADFB56BEF94C651DDB2467 /* NavigationControllerBlurTransition-dummy.m */,
+				F92A96C431F7D80D156FA06F07C12455 /* NavigationControllerBlurTransition-prefix.pch */,
+				0B0D55BBC7D65522CEC1F1B523120406 /* NavigationControllerBlurTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NavigationControllerBlurTransition";
+			sourceTree = "<group>";
+		};
+		AADBA2B0CECB837E75A7EEC2DA2D0AC0 /* Pods-NavigationControllerBlurTransition_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7AE6D9BBB2F2251A225FD05367009338 /* Info.plist */,
+				BB7AC4996AF6B1D4F1ABDA89D998CE3F /* Pods-NavigationControllerBlurTransition_Example.modulemap */,
+				05C6F0BA06700723CD44229D2022FCBD /* Pods-NavigationControllerBlurTransition_Example-acknowledgements.markdown */,
+				174F0CDFBD490C0FEFA4FA370B772D79 /* Pods-NavigationControllerBlurTransition_Example-acknowledgements.plist */,
+				B18DD1B75E1D00AB3D71DC52768B3FB6 /* Pods-NavigationControllerBlurTransition_Example-dummy.m */,
+				BD6ABD43053D877D00830FF3AC7293C1 /* Pods-NavigationControllerBlurTransition_Example-frameworks.sh */,
+				209224BCC2DD5ADBCB512426A8DE80D3 /* Pods-NavigationControllerBlurTransition_Example-resources.sh */,
+				25F8E3FB86CE68E30985417C1D2E52AC /* Pods-NavigationControllerBlurTransition_Example-umbrella.h */,
+				43917824A7F67B64A1593658B01AA576 /* Pods-NavigationControllerBlurTransition_Example.debug.xcconfig */,
+				392BCE628464B71EDF8F17F419B4646D /* Pods-NavigationControllerBlurTransition_Example.release.xcconfig */,
+			);
+			name = "Pods-NavigationControllerBlurTransition_Example";
+			path = "Target Support Files/Pods-NavigationControllerBlurTransition_Example";
+			sourceTree = "<group>";
+		};
+		BAE8CEA11F6D13DECBF25CFA19339CC2 /* Pods-NavigationControllerBlurTransition_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F98D7BB503A4DEDE5870586EECB357B5 /* Info.plist */,
+				3AF44FC74A8D9AE91ABCB209DD1A6C16 /* Pods-NavigationControllerBlurTransition_Tests.modulemap */,
+				6069995A6E5873A035DB15D6BC312DBF /* Pods-NavigationControllerBlurTransition_Tests-acknowledgements.markdown */,
+				C999A0813F51F9E5058EC55D70A0411D /* Pods-NavigationControllerBlurTransition_Tests-acknowledgements.plist */,
+				5F3E21163B200C662341AA12621942AF /* Pods-NavigationControllerBlurTransition_Tests-dummy.m */,
+				B5B5FAAFC76799883567837DA0D08F16 /* Pods-NavigationControllerBlurTransition_Tests-frameworks.sh */,
+				804B5B9F7B7D9E4D08281CD688F17BF3 /* Pods-NavigationControllerBlurTransition_Tests-resources.sh */,
+				A3475C2ECF26D6FAC99C9002F3B68DEB /* Pods-NavigationControllerBlurTransition_Tests-umbrella.h */,
+				EDACDCA5310338E38F385766F3DAA506 /* Pods-NavigationControllerBlurTransition_Tests.debug.xcconfig */,
+				65B336FF755702429FB5DBC148643B19 /* Pods-NavigationControllerBlurTransition_Tests.release.xcconfig */,
+			);
+			name = "Pods-NavigationControllerBlurTransition_Tests";
+			path = "Target Support Files/Pods-NavigationControllerBlurTransition_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562D76C7B70151E08671766689038399 /* NavigationControllerBlurTransition.bundle */,
+				AD11549E10B5587244E62E937AD47AEC /* NavigationControllerBlurTransition.framework */,
+				20CB989E734253A6CDEE5551ADAFB137 /* Pods_NavigationControllerBlurTransition_Example.framework */,
+				1EA28316CEBD183C597454D013E7B759 /* Pods_NavigationControllerBlurTransition_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36CF46A182649F68FF125ADDD24D3E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				572F63A2C824567979636E164B4BAD02 /* NavigationControllerBlurTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A6DE82D7B5F49AABFC54FA7CBFF6211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430C26E8C12448EAE570B66C2CE49466 /* Pods-NavigationControllerBlurTransition_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0C30673E348C940520F2DD8879E9A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33BF6B42954E790EC70933D051D5CDB /* Pods-NavigationControllerBlurTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB493AEFF7A5F55D7C027AF66EFBCF51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CBC4E09668D2ACEE9A608E382A95D8 /* NavigationControllerBlurTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FFFCF6C9B84ED4C1DDD5B8BA8686F00 /* NavigationControllerBlurTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581C7D90DB4FD592EC98A42EB30A5FDB /* Build configuration list for PBXNativeTarget "NavigationControllerBlurTransition" */;
+			buildPhases = (
+				8F44FEA41475F6AAB364793367859BB6 /* Sources */,
+				10BF5118B43590C9ADB060A779D5E99A /* Frameworks */,
+				062FD68421CDD9C5EC87C568349C3211 /* Resources */,
+				DB493AEFF7A5F55D7C027AF66EFBCF51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC26F02AF99B36B6A982317C432F08F /* PBXTargetDependency */,
+			);
+			name = NavigationControllerBlurTransition;
+			productName = NavigationControllerBlurTransition;
+			productReference = AD11549E10B5587244E62E937AD47AEC /* NavigationControllerBlurTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		694BF36D3497C915BF949FB5EDAA3C86 /* Pods-NavigationControllerBlurTransition_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D884DFB71C396FF2E6CF38BE82E4A586 /* Build configuration list for PBXNativeTarget "Pods-NavigationControllerBlurTransition_Tests" */;
+			buildPhases = (
+				225FFCB974FF98260CD3C1B6D28FC75B /* Sources */,
+				D384C4C71084148EEC302842FCDD3CDE /* Frameworks */,
+				0A6DE82D7B5F49AABFC54FA7CBFF6211 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F18F2B33069E816716493727EF5C6BC /* PBXTargetDependency */,
+			);
+			name = "Pods-NavigationControllerBlurTransition_Tests";
+			productName = "Pods-NavigationControllerBlurTransition_Tests";
+			productReference = 1EA28316CEBD183C597454D013E7B759 /* Pods_NavigationControllerBlurTransition_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD0944BF569E88F62F7A3F3A4B648E01 /* Pods-NavigationControllerBlurTransition_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDA2F2D5A27F1D01F350D028450B8E4 /* Build configuration list for PBXNativeTarget "Pods-NavigationControllerBlurTransition_Example" */;
+			buildPhases = (
+				F710DC8A1236D53AA65D266C5A44353E /* Sources */,
+				385D45BCCC50E65A6E2B80DCFA035822 /* Frameworks */,
+				7D0C30673E348C940520F2DD8879E9A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC637028464245CF9F7205549D07A49A /* PBXTargetDependency */,
+			);
+			name = "Pods-NavigationControllerBlurTransition_Example";
+			productName = "Pods-NavigationControllerBlurTransition_Example";
+			productReference = 20CB989E734253A6CDEE5551ADAFB137 /* Pods_NavigationControllerBlurTransition_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4DCE4FA96F99873B4859FAAB6D09694 /* NavigationControllerBlurTransition-NavigationControllerBlurTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E907A42B1017D5403C3EE19E80A12D8A /* Build configuration list for PBXNativeTarget "NavigationControllerBlurTransition-NavigationControllerBlurTransition" */;
+			buildPhases = (
+				48A0F4C9159BDDAA424FE995FB91B274 /* Sources */,
+				A853AAB9F3506D9C0374F6593B1390B6 /* Frameworks */,
+				0E7C0AF25B9C631E8FB5BFE6157361BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NavigationControllerBlurTransition-NavigationControllerBlurTransition";
+			productName = "NavigationControllerBlurTransition-NavigationControllerBlurTransition";
+			productReference = 562D76C7B70151E08671766689038399 /* NavigationControllerBlurTransition.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FFFCF6C9B84ED4C1DDD5B8BA8686F00 /* NavigationControllerBlurTransition */,
+				D4DCE4FA96F99873B4859FAAB6D09694 /* NavigationControllerBlurTransition-NavigationControllerBlurTransition */,
+				CD0944BF569E88F62F7A3F3A4B648E01 /* Pods-NavigationControllerBlurTransition_Example */,
+				694BF36D3497C915BF949FB5EDAA3C86 /* Pods-NavigationControllerBlurTransition_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062FD68421CDD9C5EC87C568349C3211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119BC135998560691F5D2AEABBE7CA83 /* NavigationControllerBlurTransition.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7C0AF25B9C631E8FB5BFE6157361BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225FFCB974FF98260CD3C1B6D28FC75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9CE859CEAF6A77BE74DF996E70858F /* Pods-NavigationControllerBlurTransition_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A0F4C9159BDDAA424FE995FB91B274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F44FEA41475F6AAB364793367859BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E35FA41BC1483B00A5F607 /* UIView+Constraints.swift in Sources */,
+				E88DDA4E542D19B4AD8FAD9401882D67 /* NavigationControllerBlurTransition-dummy.m in Sources */,
+				72E35FA21BC147E100A5F607 /* NavigationControllerBlurTransition.swift in Sources */,
+				72E35FAA1BC1BAAF00A5F607 /* UINavigationController+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F710DC8A1236D53AA65D266C5A44353E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B7A929A5206E193AA6ABD433D0A866 /* Pods-NavigationControllerBlurTransition_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F18F2B33069E816716493727EF5C6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationControllerBlurTransition;
+			target = 5FFFCF6C9B84ED4C1DDD5B8BA8686F00 /* NavigationControllerBlurTransition */;
+			targetProxy = BC196AD0EB5B6B0DA55667549CDE5CAC /* PBXContainerItemProxy */;
+		};
+		5BC26F02AF99B36B6A982317C432F08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NavigationControllerBlurTransition-NavigationControllerBlurTransition";
+			target = D4DCE4FA96F99873B4859FAAB6D09694 /* NavigationControllerBlurTransition-NavigationControllerBlurTransition */;
+			targetProxy = 2C2B088B85985A6C07F6AE238A7DE074 /* PBXContainerItemProxy */;
+		};
+		EC637028464245CF9F7205549D07A49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationControllerBlurTransition;
+			target = 5FFFCF6C9B84ED4C1DDD5B8BA8686F00 /* NavigationControllerBlurTransition */;
+			targetProxy = 3C9E11C77926CB570205421F198E01F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1639C8333E8C6C64CC6AC2E02CDEB3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationControllerBlurTransition/NavigationControllerBlurTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationControllerBlurTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NavigationControllerBlurTransition/NavigationControllerBlurTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NavigationControllerBlurTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DCBA6DAC490D7FE24B017C8D76B696F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B336FF755702429FB5DBC148643B19 /* Pods-NavigationControllerBlurTransition_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Tests/Pods-NavigationControllerBlurTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NavigationControllerBlurTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8739B024F41443EC71A128B6A6D88748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationControllerBlurTransition/NavigationControllerBlurTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationControllerBlurTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NavigationControllerBlurTransition/NavigationControllerBlurTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NavigationControllerBlurTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A093019CBD0C2A2250F15B2A90AE7A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43917824A7F67B64A1593658B01AA576 /* Pods-NavigationControllerBlurTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Example/Pods-NavigationControllerBlurTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NavigationControllerBlurTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0148E38D42ED05724210076F5475019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NavigationControllerBlurTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D162EF55E4485DF99A1013A76BFB9F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC10588E5D81D44A3284CED0886E3D3 /* NavigationControllerBlurTransition-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NavigationControllerBlurTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D20A2F6FF6449966A1AB26968156FE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDACDCA5310338E38F385766F3DAA506 /* Pods-NavigationControllerBlurTransition_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Tests/Pods-NavigationControllerBlurTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NavigationControllerBlurTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D89F53D6570A847B386D7FC1ADF9FB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392BCE628464B71EDF8F17F419B4646D /* Pods-NavigationControllerBlurTransition_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigationControllerBlurTransition_Example/Pods-NavigationControllerBlurTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NavigationControllerBlurTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581C7D90DB4FD592EC98A42EB30A5FDB /* Build configuration list for PBXNativeTarget "NavigationControllerBlurTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8739B024F41443EC71A128B6A6D88748 /* Debug */,
+				1639C8333E8C6C64CC6AC2E02CDEB3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D884DFB71C396FF2E6CF38BE82E4A586 /* Build configuration list for PBXNativeTarget "Pods-NavigationControllerBlurTransition_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20A2F6FF6449966A1AB26968156FE43 /* Debug */,
+				1DCBA6DAC490D7FE24B017C8D76B696F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E907A42B1017D5403C3EE19E80A12D8A /* Build configuration list for PBXNativeTarget "NavigationControllerBlurTransition-NavigationControllerBlurTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D162EF55E4485DF99A1013A76BFB9F13 /* Debug */,
+				C0148E38D42ED05724210076F5475019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDA2F2D5A27F1D01F350D028450B8E4 /* Build configuration list for PBXNativeTarget "Pods-NavigationControllerBlurTransition_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093019CBD0C2A2250F15B2A90AE7A12 /* Debug */,
+				D89F53D6570A847B386D7FC1ADF9FB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

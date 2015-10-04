@@ -1,0 +1,6 @@
+framework module NavigationControllerBlurTransition {
+  umbrella header "NavigationControllerBlurTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - NavigationControllerBlurTransition (0.1.0)
+
+DEPENDENCIES:
+  - NavigationControllerBlurTransition (from `../`)
+
+EXTERNAL SOURCES:
+  NavigationControllerBlurTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NavigationControllerBlurTransition: 637fd4f395274e80a4a63e28bbba7c9504ebca7b
+
+COCOAPODS: 0.38.2
