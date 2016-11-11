@@ -1,12 +1,12 @@
 # [DEPRECATED] NavigationControllerBlurTransition
 
-⚠️ **This repository is no longer maintained or supported. New pull requests will not be reviewed.** ⚠️
-
 [![Version](https://img.shields.io/cocoapods/v/NavigationControllerBlurTransition.svg?style=flat)](http://cocoapods.org/pods/NavigationControllerBlurTransition)
 [![License](https://img.shields.io/cocoapods/l/NavigationControllerBlurTransition.svg?style=flat)](http://cocoapods.org/pods/NavigationControllerBlurTransition)
 [![Platform](https://img.shields.io/cocoapods/p/NavigationControllerBlurTransition.svg?style=flat)](http://cocoapods.org/pods/NavigationControllerBlurTransition)
 
 ![alt tag](https://raw.githubusercontent.com/prolificinteractive/NavigationControllerBlurTransition/master/Images/screencap.gif)
+
+⚠️ **This repository is no longer maintained or supported. New pull requests will not be reviewed.** ⚠️
 
 NavigationControllerBlurTransition is a simple blur transition for your UINavigationController. With only one line of code, create a visually appealing interface for your app!
 
