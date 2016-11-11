@@ -1,4 +1,6 @@
-# NavigationControllerBlurTransition
+# [DEPRECATED] NavigationControllerBlurTransition
+
+⚠️ **This repository is no longer maintained or supported. New pull requests will not be reviewed.** ⚠️
 
 [![Version](https://img.shields.io/cocoapods/v/NavigationControllerBlurTransition.svg?style=flat)](http://cocoapods.org/pods/NavigationControllerBlurTransition)
 [![License](https://img.shields.io/cocoapods/l/NavigationControllerBlurTransition.svg?style=flat)](http://cocoapods.org/pods/NavigationControllerBlurTransition)
